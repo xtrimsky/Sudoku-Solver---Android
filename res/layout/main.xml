@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <TableRow android:background="@drawable/gradient1"> 
+    	<TextView android:textStyle="bold" android:paddingLeft="10sp" android:paddingTop="3sp" android:paddingRight="20sp" android:id="@+id/TextView01" android:textColor="#ffffff" android:textSize="20sp" android:text="@string/app_name" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+    	<Button android:layout_marginTop="3sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingTop="1sp" android:paddingBottom="1sp" android:id="@+id/Button01" android:layout_height="40sp" android:layout_width="132sp" android:textSize="20sp" android:text="@string/solve" android:onClick="onClickSolve" android:inputType="numberDecimal|numberSigned"></Button>
+
+</TableRow> 
+
+
+
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+    <TableRow android:paddingBottom="10sp">
+    	
+    </TableRow>
+    <TableRow> 
+    	<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText11" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText12" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText13" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText14" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText15" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText16" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText17" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText18" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText19" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow> 
+    <TableRow>
+        <EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText21" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText22" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText23" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText24" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText25" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText26" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText27" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText28" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText29" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow>
+    <TableRow android:paddingBottom="5sp">
+    	<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText31" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText32" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText33" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText34" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText35" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText36" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText37" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText38" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText39" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow>
+    
+    <TableRow> 
+    	<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText41" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText42" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText43" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText44" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText45" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText46" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText47" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText48" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText49" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow> 
+    <TableRow>
+        <EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText51" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText52" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText53" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText54" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText55" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText56" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText57" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText58" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText59" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow>
+    <TableRow android:paddingBottom="5sp">
+    	<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText61" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText62" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText63" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText64" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText65" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText66" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText67" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText68" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText69" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow>
+    
+    <TableRow> 
+    	<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText71" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText72" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText73" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText74" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText75" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText76" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText77" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText78" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText79" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow> 
+    <TableRow>
+        <EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText81" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText82" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText83" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText84" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText85" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText86" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText87" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText88" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText89" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow>
+    <TableRow>
+    	<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText91" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText92" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText93" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText94" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText95" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_marginLeft="1sp" android:layout_marginTop="1sp" android:layout_marginBottom="1sp"   android:layout_marginRight="3sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText96" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText97" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText98" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+		<EditText android:layout_margin="1sp" android:padding="6sp" android:maxLength="1" android:textSize="16sp" android:id="@+id/EditText99" android:layout_width="32sp" android:layout_height="32sp"></EditText>
+    </TableRow>
+    
+</TableLayout>
+
+</TableLayout>

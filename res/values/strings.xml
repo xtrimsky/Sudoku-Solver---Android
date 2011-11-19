@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, solveSudoku!</string>
+    <string name="app_name">Sudoku Solver</string>
+	<string name="solve">Solve</string>
+	<color name="gray">#CCCCCC</color>
+	<color name="white">#FFFFFF</color>
+	<color name="red">#FF0000</color>
+
+</resources>
